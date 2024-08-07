@@ -38,7 +38,7 @@ public class UtilsTools {
 		public static HomePageObjects homePageObjects;
 		public static Dashboard init() {
 			
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\eclipse-workspace\\SEL1\\drivers\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			EventFiringWebDriver eventfiringwebdriver = new EventFiringWebDriver(driver);
 			eventListener = new WebEventListener(); 
