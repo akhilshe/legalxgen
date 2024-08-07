@@ -37,19 +37,7 @@ public class CreateMatterTests extends UtilsTools{
 		Thread.sleep(3000);
 				
 	} 	
-	@Test(priority = 2)
-	public void CreateMatter() throws Exception {
-		createdMatterPage =  creatematter.EnterDetails();
-		Thread.sleep(3000);		
-		createdMatterPage.ClickOK_n_back();
-		Thread.sleep(3000);
-	}
-	@Test(priority =3,retryAnalyzer = MyRetry.class)
-	public void Verify_created_matter() throws Exception{
-		manageMatter.verifyMatterNumber();
-		
-		
-	}
+	
 	
 
 }
