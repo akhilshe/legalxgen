@@ -15,7 +15,7 @@ import PageObjects.ManageMatter;
 import Utils.MyRetry;
 import Utils.TableException;
 import Utils.UtilsTools;
-@Listeners(IE.class)
+
 public class CreateMatterTests extends UtilsTools{
 	
 	HomePageObjects  homePageObjects;
