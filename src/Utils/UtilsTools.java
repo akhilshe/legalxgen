@@ -16,7 +16,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 import com.aventstack.extentreports.Status;
 
 import PageObjects.Dashboard;
