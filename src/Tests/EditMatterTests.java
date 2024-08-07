@@ -15,7 +15,7 @@ public class EditMatterTests extends UtilsTools{
 	CreatedMatterPage createdMatterPage;
 	CreateMatter createMatter;
 	
-	@Test(dependsOnMethods = {"Tests.CreateMatterTests.CreateMatter"})
+	
 	public void GoTOMatter() throws Exception
 	{
 		dashboard =UtilsTools.init();
